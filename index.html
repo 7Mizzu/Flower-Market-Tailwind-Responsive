@@ -8,20 +8,20 @@
     <title>Flower-Market-Tailwind-Responsive</title>
 </head>
 
-<body>
+<body class="max-sm:m-8">
     <header class="mb-28">
-        <nav class="flex justify-between max-w-6xl m-auto items-center mt-5">
-            <img src="/assets/logo.png" alt="">
+        <nav class="flex justify-between max-w-6xl m-auto items-center mt-5 ">
+            <img class="w-auto" src="/assets/logo.png" alt="">
             <div>
-                <ul class="flex gap-7">
-                    <li>Home</li>
-                    <li>Shop</li>
-                    <li>About us </li>
+                <ul class="flex gap-7 ">
+                    <li class="max-sm:hidden">Home</li>
+                    <li class="max-sm:hidden">Shop</li>
+                    <li class="max-sm:hidden">About us </li>
                     <li>Cart ($56)</li>
                 </ul>
             </div>
         </nav>
-        <div class="flex items-end max-w-6xl m-auto mt-25">
+        <div class="flex items-end max-w-6xl m-auto mt-25 max-sm:flex-col-reverse max-sm:gap-10">
             <div class="">
                 <h1 class="text-6xl font-semibold mb-5">ALWAYS <span class="text-orange-600">FRESH</span> <br> <span
                         class="text-orange-600">FLOWERS</span></h1>
@@ -36,57 +36,122 @@
         <section class="max-w-6xl m-auto">
             <div class="text-center ">
                 <h1 class="text-6xl font-semibold mb-4"><span class="text-orange-600">Our</span> Plants</h1>
-                <p class="text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                <p class="text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                    classic roses to
                     exotic blooms, we offer a wide variety of fresh.</p>
             </div>
-            <div class="grid grid-cols-4 gap-5 mt-12">
+            <div class="grid grid-cols-4 gap-5 mt-12 max-sm:grid-cols-2">
                 <div class="mb-5">
                     <img class="w-auto" src="/assets/sample-flower-image.png" alt="">
                     <p class="mt-6 text-2xl text-center">Lily Blossom</p>
                     <p class="text-center font-bold mb-2 mt-2">20 USD</p>
-                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white ">ADD TO CART</button>
+                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white max-sm:pl-12.5 max-sm:pr-12.5 ">ADD
+                        TO CART</button>
                 </div>
                 <div class="mb-5">
                     <img class="w-auto" src="/assets/sample-flower-image.png" alt="">
                     <p class="mt-6 text-2xl text-center">Lily Blossom</p>
                     <p class="text-center font-bold mb-2 mt-2">20 USD</p>
-                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white ">ADD TO CART</button>
+                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white max-sm:pl-12.5 max-sm:pr-12.5">ADD TO
+                        CART</button>
                 </div>
                 <div class="mb-5">
                     <img class="w-auto" src="/assets/sample-flower-image.png" alt="">
                     <p class="mt-6 text-2xl text-center">Lily Blossom</p>
                     <p class="text-center font-bold mb-2 mt-2">20 USD</p>
-                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white ">ADD TO CART</button>
+                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white max-sm:pl-12.5 max-sm:pr-12.5">ADD TO
+                        CART</button>
                 </div>
                 <div class="mb-5">
                     <img class="w-auto" src="/assets/sample-flower-image.png" alt="">
                     <p class="mt-6 text-2xl text-center">Lily Blossom</p>
                     <p class="text-center font-bold mb-2 mt-2">20 USD</p>
-                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white ">ADD TO CART</button>
+                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white max-sm:pl-12.5 max-sm:pr-12.5">ADD TO
+                        CART</button>
                 </div>
                 <div class="mb-5">
                     <img class="w-auto" src="/assets/sample-flower-image.png" alt="">
                     <p class="mt-6 text-2xl text-center">Lily Blossom</p>
                     <p class="text-center font-bold mb-2 mt-2">20 USD</p>
-                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white ">ADD TO CART</button>
+                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white max-sm:pl-12.5 max-sm:pr-12.5">ADD TO
+                        CART</button>
                 </div>
                 <div class="mb-5">
                     <img class="w-auto" src="/assets/sample-flower-image.png" alt="">
                     <p class="mt-6 text-2xl text-center">Lily Blossom</p>
                     <p class="text-center font-bold mb-2 mt-2">20 USD</p>
-                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white ">ADD TO CART</button>
+                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white max-sm:pl-12.5 max-sm:pr-12.5">ADD TO
+                        CART</button>
                 </div>
                 <div class="mb-5">
                     <img class="w-auto" src="/assets/sample-flower-image.png" alt="">
                     <p class="mt-6 text-2xl text-center">Lily Blossom</p>
                     <p class="text-center font-bold mb-2 mt-2">20 USD</p>
-                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white ">ADD TO CART</button>
+                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white max-sm:pl-12.5 max-sm:pr-12.5">ADD TO
+                        CART</button>
                 </div>
                 <div class="mb-5">
                     <img class="w-auto" src="/assets/sample-flower-image.png" alt="">
                     <p class="mt-6 text-2xl text-center">Lily Blossom</p>
                     <p class="text-center font-bold mb-2 mt-2">20 USD</p>
-                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white ">ADD TO CART</button>
+                    <button class=" pt-5 pb-5 pl-22 pr-21 bg-orange-600 text-white max-sm:pl-12.5 max-sm:pr-12.5">ADD TO
+                        CART</button>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-6xl m-auto mt-43">
+            <div class="flex items-center gap-14 relative max-sm:flex-col">
+                <img class="w-72 absolute left-87 -top-34 fill-white drop-shadow-xl/45 max-sm:hidden"
+                    src="/assets/trusted-badge.png" alt="">
+                <img class="w-auto" src="/assets/flower-store.png" alt="">
+                <div>
+                    <h1 class="text-6xl font-bold mb-17">Flower & Plants Lover</h1>
+                    <ul>
+                        <li class="list-disc text-2xl mb-5">Indulge your senses with the beauty and fragrance of our
+                            fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                        </li>
+                        <li class="list-disc text-2xl mb-5">Indulge your senses with the beauty and fragrance of our
+                            fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+                        </li>
+                        <li class="list-disc text-2xl">Indulge your senses with the beauty and fragrance of our fresh
+                            flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-6xl m-auto mt-28 ">
+            <div class="text-center mb-22">
+                <h1 class="text-6xl font-semibold mb-4">
+                    <span class="text-orange-600">Latest</span> Deals
+                </h1>
+                <p class="text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                    classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </div>
+            <div class="flex gap-6"> 
+                <div>
+                    <div class="relative mb-6">
+                        <img class="brightness-50 rounded-2xl" src="/assets/deal-bloom.png" alt="">
+                        <div class="absolute top-20 left-18">
+                            <h3 class="text-white text-2xl ">60% Off | Bloom Plant</h3>
+                            <h3 class="text-white text-center text-2xl">Shop Now</h3>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img class="brightness-50 rounded-2xl" src="/assets/deal-ana.png" alt="">
+                        <div class="absolute top-20 left-18">
+                            <h3 class="text-white text-2xl ">30% Off | Ana Plant</h3>
+                            <h3 class="text-white text-center text-2xl">Shop Now</h3>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="relative">
+                        <img class="brightness-50 rounded-2xl" src="/assets/deal-zabo.png" alt="">
+                        <div class="absolute top-45 left-36">
+                            <h3 class="text-white text-5xl ">30% Off | Ana Plant</h3>
+                            <h3 class="text-white text-center text-4xl">Shop Now</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
