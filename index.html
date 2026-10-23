@@ -8,8 +8,8 @@
     <title>Flower-Market-Tailwind-Responsive</title>
 </head>
 
-<body class="max-sm:m-8">
-    <header class="mb-28">
+<body>
+    <header class="mb-28 max-sm:m-4">
         <nav class="flex justify-between max-w-6xl m-auto items-center mt-5 ">
             <img class="w-auto" src="/assets/logo.png" alt="">
             <div>
@@ -33,7 +33,7 @@
         </div>
     </header>
     <main>
-        <section class="max-w-6xl m-auto">
+        <section class="max-w-6xl m-auto max-sm:m-4">
             <div class="text-center ">
                 <h1 class="text-6xl font-semibold mb-4"><span class="text-orange-600">Our</span> Plants</h1>
                 <p class="text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
@@ -99,7 +99,7 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-6xl m-auto mt-43">
+        <section class="max-w-6xl m-auto mt-43 max-sm:m-4">
             <div class="flex items-center gap-14 relative max-sm:flex-col">
                 <img class="w-72 absolute left-87 -top-34 fill-white drop-shadow-xl/45 max-sm:hidden"
                     src="/assets/trusted-badge.png" alt="">
@@ -119,26 +119,26 @@
                 </div>
             </div>
         </section>
-        <section class="max-w-6xl m-auto mt-28 ">
+        <section class="max-w-6xl m-auto mt-22 max-sm:m-4">
             <div class="text-center mb-22">
-                <h1 class="text-6xl font-semibold mb-4">
+                <h1 class="text-6xl font-semibold mb-5">
                     <span class="text-orange-600">Latest</span> Deals
                 </h1>
                 <p class="text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
                     classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
-            <div class="flex gap-6"> 
+            <div class="flex gap-6 max-sm:flex-col max-sm:items-center">
                 <div>
                     <div class="relative mb-6">
-                        <img class="brightness-50 rounded-2xl" src="/assets/deal-bloom.png" alt="">
+                        <img class="brightness-50 rounded-2xl w-auto" src="/assets/deal-bloom.png" alt="">
                         <div class="absolute top-20 left-18">
                             <h3 class="text-white text-2xl ">60% Off | Bloom Plant</h3>
                             <h3 class="text-white text-center text-2xl">Shop Now</h3>
                         </div>
                     </div>
-                    <div class="relative">
-                        <img class="brightness-50 rounded-2xl" src="/assets/deal-ana.png" alt="">
-                        <div class="absolute top-20 left-18">
+                    <div class="relative ">
+                        <img class="brightness-50 rounded-2xl w-auto" src="/assets/deal-ana.png" alt="">
+                        <div class="absolute top-20 left-18 ">
                             <h3 class="text-white text-2xl ">30% Off | Ana Plant</h3>
                             <h3 class="text-white text-center text-2xl">Shop Now</h3>
                         </div>
@@ -146,16 +146,58 @@
                 </div>
                 <div>
                     <div class="relative">
-                        <img class="brightness-50 rounded-2xl" src="/assets/deal-zabo.png" alt="">
-                        <div class="absolute top-45 left-36">
-                            <h3 class="text-white text-5xl ">30% Off | Ana Plant</h3>
-                            <h3 class="text-white text-center text-4xl">Shop Now</h3>
+                        <img class="brightness-50 rounded-2xl w-auto" src="/assets/deal-zabo.png" alt="">
+                        <div class="absolute top-45 left-36 max-sm:top-24 max-sm:left-28">
+                            <h3 class="text-white text-5xl max-sm:text-2xl ">25% Off | Zabo Plant</h3>
+                            <h3 class="text-white text-center text-4xl max-sm:text-2xl">Shop Now</h3>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>   
+        <section class="mt-28" >
+            <div class=" bg-cover bg-[url(/assets/news-letter-bg.png)] ">
+                <div class="max-w-6xl m-auto pt-48 pb-48 pr-72 pl-72 max-sm:pl-7 max-sm:pr-7 max-sm:pb-19 max-sm:pt-19">
+                    <h1 class="text-6xl text-center font-bold text-white mb-7 max-sm:text-2xl">Join the colorful Bunch</h1>
+                    <form class="text-center flex justify-center" action="">
+                        <input class="w-lg h-14 pl-10 bg-gray-200 max-sm:w-52" type="email" name="" id="" placeholder="Your Email">
+                        <input class="w-44 h-14 bg-orange-600 text-white max-sm:w-24" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
+    <footer class="max-w-6xl m-auto mt-18 mb-18 max-sm:m-4">
+        <div class="flex justify-between max-sm:flex-col max-sm:gap-4">
+            <div>
+                <img src="/assets/logo.png" alt="">
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            </div>
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Blog</li>
+                    <li>FAQ</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Help Center</li>
+                </ul>
+            </div>
+            <div class="flex gap-3.5">
+                <div><img src="/assets/icon-facebook.png" alt=""></div>
+                <div><img src="/assets/icon-linkedin.png" alt=""></div>
+                <div><img src="/assets/icon-youtube.png" alt=""></div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
